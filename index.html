@@ -72,7 +72,22 @@
 
 
         }
-
+        .leftsection .btn{
+            padding: 12px;
+            background-color: #1e2167;
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+        .leftsection .btn:hover{
+           color: rgb(153, 153, 226);
+            
+        }
+        .leftsection .button{
+            padding: 50px 0;
+        }
         .rightsection img {
             width: 80%;
 
@@ -109,16 +124,61 @@
 
         .secondsection .box {
             background: white;
-            width: 160vh;
+            width: 153vh;
             height: 2px;
             margin: 56px 0;
             display: flex;
         }
-        .secondsection .vertical{
+
+        .secondsection .vertical {
             height: 93px;
             width: 1px;
             background-color: white;
-            margin: 0 100px;
+            margin: 0 120px;
+        }
+
+        .image-top {
+            width: 23px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 75px;
+            width: 150px;
+            font-size: 15px;
+
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 86px;
+            color: gray;
+            width: 150px;
+            font-size: 9px;
+        }
+        footer{
+            background-color:#0e0e1a;
+            /* height: 230px; */
+        }
+        .footer{
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+
+        }
+        .footer ul{
+            list-style: none;
+        }
+        .footer > div{
+            width: 223px;
+        }
+        footer .footer-rights{
+            text-align: center;
+            color: gray;
+            padding: 12px 0;
         }
     </style>
 </head>
@@ -128,7 +188,7 @@
         <nav>
             <div class="left">Masha Allah Portfolio</div>
             <div class="right">
-                <ul> 
+                <ul>
                     <li><a href="/">Home</a></li>
                     <li><a href="/">Contact Me</a></li>
                     <li><a href="/">About</a></li>
@@ -145,6 +205,10 @@
                 <div>and I am a passionate </div>
                 <!-- <div>web devloper</div> -->
                 <span id="element"></span>
+                <div class="button">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Visit Github</button>
+                </div>
             </div>
             <div class="rightsection">
                 <img src="bg.png" alt="">
@@ -157,16 +221,96 @@
             <h1>Work Experience</h1>
             <div class="box">
                 <div class="vertical"><img class="image-top" src="devloper.png" alt="">
-                    <div class="vertical-text">
-
+                    <div class="vertical-title">
+                        html developer (20121-2012)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo in, dicta a ea voluptatibus
+                        delectus repellat alias excepturi veniam, fugit voluptates impedit deserunt vel nostrum.
+                        Inventore sapiente dicta incidunt reiciendis?
                     </div>
                 </div>
-                <div class="vertical"></div>
-                <div class="vertical"></div>
-                <div class="vertical"></div>
+                <div class="vertical"><img class="image-top" src="devloper.png" alt="">
+                    <div class="vertical-title">
+                        html developer (20121-2012)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo in, dicta a ea voluptatibus
+                        delectus repellat alias excepturi veniam, fugit voluptates impedit deserunt vel nostrum.
+                        Inventore sapiente dicta incidunt reiciendis?
+                    </div>
+                </div>
+                <div class="vertical"><img class="image-top" src="devloper.png" alt="">
+                    <div class="vertical-title">
+                        html developer (20121-2012)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo in, dicta a ea voluptatibus
+                        delectus repellat alias excepturi veniam, fugit voluptates impedit deserunt vel nostrum.
+                        Inventore sapiente dicta incidunt reiciendis?
+                    </div>
+                </div>
+                <div class="vertical"><img class="image-top" src="devloper.png" alt="">
+                    <div class="vertical-title">
+                        UI/UX developer (20121-2012)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo in, dicta a ea voluptatibus
+                        delectus repellat alias excepturi veniam, fugit voluptates impedit deserunt vel nostrum.
+                        Inventore sapiente dicta incidunt reiciendis?
+                    </div>
+                </div>
+                <div class="vertical"><img class="image-top" src="devloper.png" alt="">
+                    <div class="vertical-title">
+                        Frontant developer (20121-2012)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo in, dicta a ea voluptatibus
+                        delectus repellat alias excepturi veniam, fugit voluptates impedit deserunt vel nostrum.
+                        Inventore sapiente dicta incidunt reiciendis?
+                    </div>
+                </div>
+                
             </div>
         </section>
     </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>MashaAllah Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>Home</li>
+                    <li>Home</li>
+                    <li>Home</li>
+                    <li>Home</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>Home</li>
+                    <li>Home</li>
+                    <li>Home</li>
+                    <li>Home</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>Home</li>
+                    <li>Home</li>
+                    <li>Home</li>
+                    <li>Home</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+           Copyright &#169; www.mashaallahportfolio.com | All rights reserved
+        </div>
+    </footer>
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script>
         var typed = new Typed('#element', {
